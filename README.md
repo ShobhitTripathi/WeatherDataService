@@ -6,7 +6,7 @@ Install Redis on your machine. You can download Redis from the official Redis we
 
 Clone this repository to your local machine:
 ````
-git clone https://github.com/your-username/go-redis-cache-example.git
+https://github.com/ShobhitTripathi/WeatherDataService.git
 ````
 Change into the project directory:
 ````
