@@ -38,6 +38,7 @@ func FetchCurrentWeatherFromAPI(zipcode string) (model.WeatherData, error) {
 		City:    weatherResponse.Location.Name,
 		Country: weatherResponse.Location.Country,
 		CurrentWeather: &model.DayData{
+			Date:          currentTime,
 			CurrentTempC:  weatherResponse.Current.TemperatureC,
 			FeelsLikeC:    weatherResponse.Current.FeelslikeC,
 			Humidity:      weatherResponse.Current.Humidity,
