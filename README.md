@@ -44,7 +44,7 @@ to see the weather forecast for the specified zipcode. The application will fetc
 - The caching mechanism implemented here is simple and may not be suitable for high-traffic or mission-critical applications.
 - The API supports only US zip e.g.: q=10001
 - Days can only be between 1- 14
-- API Key is valid till 2nd of April 2024
+- API Key is valid till 15th of April 2024
 
 ## Configuration
 You can configure the Redis connection settings in the config/config.go file. Update the RedisHost and RedisPort constants to match your Redis server configuration.
