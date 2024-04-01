@@ -15,5 +15,5 @@ const (
 	REDIS_PORT               = "6379"
 	VALIDATION_ERROR         = "Validation"
 	VENDOR_ERROR             = "Vendor-Error"
-	API_KEY                  = "1bdf0f32f80a4aa8b35165559241903"
+	API_KEY                  = "59dc98f74dca4ee9bd060418240104"
 )
